@@ -1,0 +1,65 @@
+/* estilo.css */
+/* Layout geral e visual simples */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f6f8fa;
+}
+nav {
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #40b3ff;
+}
+.container {
+    max-width: 700px;
+    background: #fff;
+    margin: 40px auto 0;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+h1, h2 {
+    color: #222;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+button {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #40b3ff;
+}
+footer {
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: #777;
+    font-size: 13px;
+}
